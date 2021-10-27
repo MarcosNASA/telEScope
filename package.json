@@ -1,7 +1,7 @@
 {
-  "name": "telescope",
+  "name": "js-telescope",
   "version": "1.0.0",
-  "description": "Node package to analyze Scopes and map them into a data structure that allows building Scope chain visualization tools.",
+  "description": "Parses scopes (from EScopes) into a data structure that allows building scope chain visualization tools.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
