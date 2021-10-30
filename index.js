@@ -1,1 +1,1 @@
-export * from './lib/telescope';
+export * from './lib/telescope.js';

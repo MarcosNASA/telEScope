@@ -1,7 +1,8 @@
 {
   "name": "js-telescope",
-  "version": "1.0.0",
-  "description": "Parses scopes (from EScopes) into a data structure that allows building scope chain visualization tools.",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "Parses scopes (from eslint-scope) into a data structure that allows building scope chain visualization tools.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/MarcosNASA/telEScope/issues"
   },
-  "homepage": "https://github.com/MarcosNASA/telEScope#readme"
+  "homepage": "https://github.com/MarcosNASA/telEScope#readme",
+  "dependencies": {
+    "eslint-scope": "^6.0.0",
+    "prettier": "^2.4.1"
+  }
 }
