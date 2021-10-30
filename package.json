@@ -1,11 +1,11 @@
 {
   "name": "js-telescope",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "type": "module",
   "description": "Parses scopes (from eslint-scope) into a data structure that allows building scope chain visualization tools.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "esbuild index.js --bundle --outfile=dist/index.js --platform=node --minify --target=es2017"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "dependencies": {
     "eslint-scope": "^6.0.0",
     "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.13.11"
   }
 }
