@@ -1,6 +1,6 @@
 {
   "name": "js-telescope",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "type": "module",
   "description": "Parses scopes (from eslint-scope) into a data structure that allows building scope chain visualization tools.",
   "main": "dist/index.js",
