@@ -5,7 +5,8 @@
   "description": "Parses scopes (from eslint-scope) into a data structure that allows building scope chain visualization tools.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "esbuild index.js --bundle --outfile=dist/index.js --platform=node --minify --target=es2017"
+    "build": "esbuild index.js --bundle --outfile=dist/index.js --platform=node --minify --target=es2017",
+    "prepare": "yarn build"
   },
   "repository": {
     "type": "git",
